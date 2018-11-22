@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="https://dokie.li/media/css/basic.css" media="all" rel="stylesheet" title="Basic" />
+    <link href="https://dokie.li/media/css/lncs.css" media="all" rel="stylesheet alternate" title="LNCS" />
+    <link href="https://dokie.li/media/css/acm.css" media="all" rel="stylesheet alternate" title="ACM" />
+    <link href="https://dokie.li/media/css/do.css" media="all" rel="stylesheet" />
+    <script src="https://dokie.li/scripts/do.js"></script>
+  </head>
+
+  <body about="" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# owl: http://www.w3.org/2002/07/owl# xsd: http://www.w3.org/2001/XMLSchema# dcterms: http://purl.org/dc/terms/ dctypes: http://purl.org/dc/dcmitype/ foaf: http://xmlns.com/foaf/0.1/ pimspace: http://www.w3.org/ns/pim/space# cc: https://creativecommons.org/ns# skos: http://www.w3.org/2004/02/skos/core# prov: http://www.w3.org/ns/prov# mem: http://mementoweb.org/ns# qb: http://purl.org/linked-data/cube# schema: http://schema.org/ void: http://rdfs.org/ns/void# rsa: http://www.w3.org/ns/auth/rsa# cert: http://www.w3.org/ns/auth/cert# wgs: http://www.w3.org/2003/01/geo/wgs84_pos# bibo: http://purl.org/ontology/bibo/ sioc: http://rdfs.org/sioc/ns# doap: http://usefulinc.com/ns/doap# dbr: http://dbpedia.org/resource/ dbp: http://dbpedia.org/property/ sio: http://semanticscience.org/resource/ opmw: http://www.opmw.org/ontology/ deo: http://purl.org/spar/deo/ doco: http://purl.org/spar/doco/ cito: http://purl.org/spar/cito/ fabio: http://purl.org/spar/fabio/ oa: http://www.w3.org/ns/oa# as: https://www.w3.org/ns/activitystreams# ldp: http://www.w3.org/ns/ldp# solid: http://www.w3.org/ns/solid/terms# acl: http://www.w3.org/ns/auth/acl# dio: https://w3id.org/dio# rel: https://www.w3.org/ns/iana/link-relations/relation#" typeof="schema:CreativeWork sioc:Post prov:Entity">
+    <main>
+      <article about="" typeof="schema:Article">
+        <h1 property="schema:name">HTML Submission Guide</h1>
+
+        <div property="schema:description">
+          <p>ISWC 2019 welcomes research articles employing the Open Web Platform. This document provides guidance to authors who wish to make their contributions available in HTML and related technology stack.</p>
+
+          <section id="general-guidance" inlist="" rel="schema:hasPart" resource="general-guidance">
+            <h2 proprety="schema:name">General Guidance</h2>
+            <div property="schema:description">
+              <p>Contributions in HTML should be shared in EasyChair as a ZIP archive that contains the complete content of the article. It should include a main “index.html” and all used resources (like media, scripts) to guarantee a correct visualisation of the document on common desktop and mobile Web browsers. Please note the following key requirements:</p>
+
+              <ul>
+                <li>HTML template: any tooling or process can be used to produce the HTML.</li>
+
+                <li>Content: the articles' full content must be human-readable with HTML alone. The use of CSS and JavaScript is encouraged, but should not interfere with the accessibility of the content.</li>
+
+                <li>Offline-friendly: there must be no external dependencies (eg a network connection) to retrieve, render, or manipulate the content's of the article.</li>
+
+                <li>Privacy: scripts must not be used to identify or track readers.</li>
+
+                <li>View: the rendered article (HTML+CSS) should have the "look and feel" of the LNCS authoring guidelines. Pixel-perfection is not expected. This is to ensure visual consistency of the proceedings as well as to have comparative page limits with the print-based publication.</li>
+              </ul>
+
+              <p>It should be possible to read the HTML contributions on an average desktop computer or mobile computer that is equipped with a reasonably current, Javascript-enabled Web browser (e.g., Firefox, Chrome/Chromium, Internet Explorer, Brave, Safari). We encourage authors to make their articles as accessible as possible (for reading and interacting) because different consumers (in this case initially the reviewers and chairs) may have different environments and abilities.</p>
+            </div>
+          </section>
+
+          <section id="final-version" inlist="" rel="schema:hasPart" resource="final-version">
+            <h2 proprety="schema:name">Final (“camera-ready”) version</h2>
+            <div property="schema:description">
+              <p>Formatting requirements for the <em>final version</em> differ by call.</p>
+
+              <ul>
+                <li>Articles accepted in the <cite>Research, In-Use, and Resources tracks</cite> will be published by Springer in the printed conference proceedings, as a part of the Lecture Notes in Computer Science (LNCS) series. Springer requires the sources of papers that have been accepted for publication in <a href="http://www.springer.com/de/it-informatik/lncs/conference-proceedings-guidelines">LaTeX or Word format</a>. If an article submitted in HTML is accepted, the authors can choose to do this step manually or using tool support as outlined below.</li>
+
+                <li>Articles accepted in the <cite>Posters &amp; Demos track</cite> and in the <cite>Doctoral Consortium</cite> will be published as <a href="http://CEUR-WS.org/">CEUR-WS.org</a> proceedings volumes. CEUR-WS.org allows articles to be in HTML but, for guaranteed printability and archiving, requires an additional PDF, which should be a print-out of the HTML article in the LNCS layout.</li>
+
+                <li>Articles accepted in the <cite>Industry track</cite> will be published on the conference website. The same “HTML+PDF” rule applies as explained above for posters, demos and doctoral papers.</li>
+              </ul>
+            </div>
+          </section>
+
+          <section id="recommendations" inlist="" rel="schema:hasPart" resource="recommendations">
+            <h2 proprety="schema:name">Recommendations</h2>
+            <div property="schema:description">
+              <p>We recommend that authors take these steps independently of the general process:</p>
+
+              <p>Before sharing your article with ISWC, self-publish your HTML version, eg. at a repository, personal or institution website that's publicly accessible and archivable from a URL.</p>
+
+              <p>Include the URL of your self-published article along the lines of: “Identifier: http://example.org/article “ after the list of authors and/or include the URL in the abstract of your article. Make sure to preserve this information in your camera-ready version.</p>
+
+              <p>Consider using a <a href="https://creativecommons.org/">Creative Commons</a> license like <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> on the self-published version.</p>
+
+              <p>Create multiple archived copies of the self-published version using on-demand free archive services like <a href="https://web.archive.org">archive.org</a>, <a href="https://archive.is/">archive.is</a>.</p>
+
+              <p>If you intend to also publish the "Author’s Accepted Manuscript" version following peer-review, note Springer's <a href="https://www.springer.com/gb/open-access/authors-rights/self-archiving-policy/2124">self-archiving policy</a>.</p>
+
+              <p>Send a notification about your original self-published article to the <a href="https://linkedresearch.org">Linked Open Research Cloud</a> (<abbr title="Linked Open Research Cloud">LORC</abbr>) so to improve its discoverability.</p>
+
+              <p>For additional help, authors are welcome to <a href="https://gitter.im/linkedresearch/chat">join the public chat</a> on <a href="https://linkedresearch.org/">Linked Research</a>. Please note that this not an official communication channel of the conference. It is an open community for scholarly communication and people passionate about the Web.</p>
+
+              <p>Authors are encouraged to use tooling and processes that best works for them.</p>
+
+              <section id="dokieli" inlist="" rel="schema:hasPart" resource="dokieli">
+                <h3 proprety="schema:name">dokieli</h3>
+                <div property="schema:description">
+                  <p><a href="https://dokie.li/">dokieli</a> is a client-side editor for decentralized article publishing in HTML+RDF annotations, notifications, and social interactions. It implements W3C Recommendations like <a href="https://www.w3.org/TR/annotation-model/">Web Annotation</a>, <a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a>, and <a href="https://www.w3.org/TR/activitypub/">ActivityPub</a>.</p>
+
+                  <p>The <a href="https://dokie.li/lncs-splnproc">LNCS author guidelines</a> can be used as template. View source. There is a list of <a href="https://github.com/linkeddata/dokieli/wiki#examples-in-the-wild">examples in the wild</a>.</p>
+
+                  <p>Authors that would like to self-publish, can use any HTTP server. Authors, reviewers, and readers can use their own <a href="https://www.w3.org/2005/Incubator/webid/spec/">WebID</a> and Linked Data based personal storages, eg. <a href="http://github.com/solid/node-solid-server/">Solid</a>, with dokieli. <a href="https://gitter.im/linkeddata/dokieli">Join the chat</a> for any help.</p>
+                </div>
+              </section>
+
+              <section id="rash" inlist="" rel="schema:hasPart" resource="rash">
+                <h3 proprety="schema:name">RASH</h3>
+                <div property="schema:description">
+                  <p>The <a href="https://github.com/essepuntato/rash">Research Articles in Simplified HTML (RASH) format</a> allows one to easily prepare a scientific paper in HTML format (<a href="https://rawgit.com/essepuntato/rash/master/papers/rash-demo-iswc2015.html">see an example of a paper in RASH</a>). It is composed by a few of the available HTML tags and allows one to <a href="https://rawgit.com/essepuntato/rash/master/documentation/index.html#rdfa">add RDF annotations</a> by means of Turtle, JSON-LD, RDF/XML, and RDFa.</p>
+
+                  <p>Although one could directly write the HTML/RASH syntax (see <a href="https://rawgit.com/essepuntato/rash/master/documentation/index.html">documentation</a>), the simplest way to produce RASH is to use the native RASH wordprocessor, i.e. RAJE (<a href="https://rash-framework.github.io/raje-app/">https://rash-framework.github.io/raje-app/</a>), available for Mac OS X, Windows, and Linux.</p>
+
+                  <p>Alternatively, one can create an Open Office Writer (ODT) or Microsoft Word (DOCX) document, and then convert it to HTML/RASH using an online tool: <a href="http://dasplab.cs.unibo.it/rocs">http://dasplab.cs.unibo.it/rocs</a>. In summary:</p>
+
+                  <ul>
+                    <li>Prepare your article in Open Office Writer (ODT) or Microsoft Word (DOCX), following the simple RASH guidelines for <a href="https://rawgit.com/essepuntato/rash/master/documentation/rash-in-odt-simplified.odt">ODT</a> and <a href="https://rawgit.com/essepuntato/rash/master/documentation/rash-in-docx-simplified.docx">DOCX</a>.</li>
+
+                    <li>Use <a href="http://dasplab.cs.unibo.it/rocs">ROCS, the RASH online conversion service</a> to convert your ODT or DOCX document to RASH. This tool will produce a ZIP file with the RASH conversion of your paper (it also includes an LNCS-conforming LaTeX version of the article). This ZIP file can be directly submitted to EasyChair. If you prefer, you could also install the <a href="https://github.com/essepuntato/rash/tree/master/tools/rocs">conversion tool locally on your machine</a>.</li>
+
+                    <li>Optionally, if you want to extend the metadata of the paper, <a href="https://rawgit.com/essepuntato/rash/master/documentation/index.html#rdfa">add RDF annotations</a> to the HTML code.</li>
+                  </ul>
+
+                  <p>If you choose to write HTML/RASH manually (which makes sense when collaborating with your co-authors in a source code repository), note that the above-mentioned <a href="http://dasplab.cs.unibo.it/rocs">ROCS</a> can actually convert <em>any</em> RASH markup to LaTeX.</p>
+                </div>
+              </section>
+            </div>
+          </section>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
